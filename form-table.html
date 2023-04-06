@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" contain="width=device-with, initial-scale=1.0">
+
+    <title>Contact form</title>
+
+    <meta name="title" content="Contact form" />
+    <meta name="description" content="" />
+    <meta name="keyword" content="" />
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="" class="logo"></a>
+
+            <ul class="menu">
+                <li><a href="#">About</a></li>
+            </ul>
+
+            <div class="right">
+                <a href="#" class="btnmain">Join us</a>
+                <a href="#" class="btnmainyellow">Getting Started</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2 class="titleform">Liên hệ</h2>
+            <form class="contactform" action="#" method="POST">
+
+                <div class="contactform_input">
+                    <label for="hvt">Họ và tên:</label><br>
+                    <input type="text" id="hvt" name="hvt" placeholder="Nguyễn Văn A" value=""><br>
+                </div>
+
+                <div class="contactform_input">
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email" placeholder="abc.123@gmail.com" value=""><br>
+                </div>
+
+                <div class="contactform_input">
+                    <label for="pnumber">Số điện thoại:</label><br>
+                    <input type="number" id="pnumber" name="pnumber" placeholder="0123456789" value=""><br>
+                </div>
+
+                <div class="contactform_input">
+                    <h6 class="titleinput">Chọn dịch vụ:</h6>
+                    <p class="item">
+                        <label for="selectservice1">Xây dựng thương hiệu</label>
+                        <input type="checkbox" id="selectservice1" name="selectservice1" value="Xây dựng thương hiệu">
+                    </p>
+
+                    <p class="item">
+                        <label for="selectservice2">Thiết kế</label>
+                        <input type="checkbox" id="selectservice2" name="selectservice2" value="Thiết kế">
+                    </p>
+
+                    <p class="item">
+                        <label for="selectservice3">Lập trình</label>
+                        <input type="checkbox" id="selectservice3" name="selectservice3" value="Lập trình">
+                    </p>
+                </div>
+
+                <div class="contactform_input">
+                    <h6 class="titleinput">Loại công ty:</h6>
+                    <p class="item">
+                        <label for="tocompany1">Cá nhân</label>
+                        <input type="radio" id="tocompany1" name="tocompany" value="Cá nhân">
+                    </p>
+
+                    <p class="item">
+                        <label for="tocompany2">Thiết kế</label>
+                        <input type="radio" id="tocompany2" name="tocompany" value="Thiết kế">
+                    </p>
+
+                    <p class="item">
+                        <label for="tocompany3">Lập trình</label>
+                        <input type="radio" id="tocompany3" name="tocompany" value="Lập trình">
+                    </p>
+
+
+                </div>
+
+                <div class="contactform_input">
+                    <h6 class="titleinput">Chủ đề</h6>
+                    <select name="topic" id="topic">
+                        <option value="cooperate">Hợp tác</option>
+                        <option value="complain">Khiếu nại</option>
+                        <option value="feedback">Góp ý</option>
+                    </select>
+                </div>
+
+                <div class="contactform_input">
+                    <h6 class="titleinput">Nội dung</h6>
+                    <textarea id="content" name="content" rows="5" cols="50"
+                        placeholder="Nhập nội dung ở đây..."></textarea>
+                </div>
+
+                <button type="submit">Submit</button>
+
+            </form>
+            <form class="tab" action="#" method="POST">
+                <table>
+                    <tr>
+                        <th>STT</th>
+                        <th>Họ và tên</th>
+                        <th>Email</th>
+                        <th>SĐT</th>
+                        <th>Khóa học</th>
+                        <th>Ghi chú</th>
+                    </tr>
+                    <tr>
+                        <td>01</td>
+                        <td>Phùng Bảo Long</td>
+                        <td>baolongbk.211003@gmail.com</td>
+                        <td>0383989141</td>
+                        <td>CFD-N9</td>
+                        <td>Frontend Newbie</td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td>Hà Thanh Tú</td>
+                        <td>tuthanh123@gmail.com</td>
+                        <td>0987456312</td>
+                        <td>CFD-N9</td>
+                        <td>Frontend Master</td>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td>Văn Phú</td>
+                        <td>phuvan123@gmail.com</td>
+                        <td>0966768345</td>
+                        <td>CFD-N9</td>
+                        <td>Frontend Newbie</td>
+                    </tr>
+                    <tr>
+                        <td>04</td>
+                        <td>Nguyễn Đức Anh</td>
+                        <td>ducanhnguyen@gmail.com</td>
+                        <td>0944732654</td>
+                        <td>CFD-N9</td>
+                        <td>Frontend Master</td>
+                    </tr>
+                    <tr>
+                        <td>05</td>
+                        <td>Lê Quốc An</td>
+                        <td>quoc.an123@gmail.com</td>
+                        <td>09775463541</td>
+                        <td>CFD-N9</td>
+                        <td>Frontend Newbie</td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
